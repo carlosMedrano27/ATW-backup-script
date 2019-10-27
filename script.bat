@@ -10,9 +10,9 @@ echo. >> %BACKUP_LOG_FILE%
 echo Inicia respaldo >> %BACKUP_LOG_FILE%
 echo %FECHA% %HORA% >> %BACKUP_LOG_FILE%
 
-7zip.exe a -tzip "C:\Users\karlitosneto\Documents\backup\atw\" "C:\Users\karlitosneto\Documents\ATW-Ecommerce" >> %BACKUP_LOG_FILE%
+7z.exe a -tzip "C:\Users\karlitosneto\Documents\backup\OneDrive\atw\BACKUP_FILE" "C:\Users\karlitosneto\Documents\ATW-Ecommerce" >> %BACKUP_LOG_FILE%
 
 echo. >> %BACKUP_LOG_FILE%
 echo Fin respaldo >> %BACKUP_LOG_FILE%
 echo %FECHA% %HORA% >> %BACKUP_LOG_FILE%
-echo Log file: %BACKUP_LOG_FILE%
+echo Log f
